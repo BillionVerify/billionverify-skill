@@ -107,10 +107,6 @@ For detailed API documentation, visit [https://billionverify.com/docs](https://b
 - BillionVerify API key (get one at [https://billionverify.com/auth/sign-in?next=/home/api-keys](https://billionverify.com/auth/sign-in?next=/home/api-keys))
 - Environment variable `BILLIONVERIFY_API_KEY` must be set
 
-## License
-
-MIT
-
 ## Related Links
 
 - [BillionVerify Website](https://billionverify.com/)
@@ -118,3 +114,7 @@ MIT
 - [BillionVerify Node SDK](https://www.npmjs.com/package/billionverify-sdk)
 - [BillionVerify MCP Server](https://www.npmjs.com/package/billionverify-mcp)
 - [Skills.sh Directory](https://skills.sh/)
+
+## License
+
+MIT
