@@ -8,6 +8,10 @@ This skill enables AI agents to verify email addresses — single verification, 
 
 ## Installation
 
+Full step-by-step guide for Claude Code, claude.ai / Claude Desktop, ChatGPT and Codex: [docs/install-claude-chatgpt.md](docs/install-claude-chatgpt.md).
+
+> Using ChatGPT on the web or claude.ai? The hosted [BillionVerify MCP connector](https://github.com/BillionVerify/billionverify-mcp) (`https://mcp.billionverify.com/mcp`, OAuth sign-in, no API key) is the easier option there.
+
 Install this skill using the `skills` CLI:
 
 ```bash
@@ -19,6 +23,12 @@ Or install to specific agents:
 ```bash
 npx skills add BillionVerify/billionverify-skill -a cursor -a claude-code
 ```
+
+### claude.ai / Claude Desktop
+
+1. Settings → Capabilities: turn on **Code execution and file creation** and allow network egress to `api.billionverify.com`.
+2. Download this repository as a ZIP (**Code → Download ZIP**) and upload it under Skills.
+3. claude.ai has no environment variables, so the skill will ask for your API key in the chat.
 
 ## Setup
 
@@ -83,6 +93,7 @@ List all my webhooks
 - Track async file verification job status with long-polling
 - Download filtered results by verification status
 - Check credit balance and usage
+- View verification history and statistics (7d / 30d / 90d / 1y)
 - Create, list, and delete webhooks for file completion events
 - Health check endpoint
 
